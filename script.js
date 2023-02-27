@@ -1,15 +1,20 @@
-// testiranje valjanosti upisane vrijednosti 
-document.getElementById("submit").addEventListener("click", () => {
-    console.log(document.getElementById("input").value)
-   });
+function addTech() {
+  let input = document.querySelector("#inputValue").value;
 
-// document.querySelector('#ispis').setAttribute('class', 'col-5 border text-center ms-3 pb-3 pt-3 testDiv');
+  if (input != "") {
+    const newDiv = document.createElement("div");
+    newDiv.classList.add("col-5", "border", "text-center", "mt-5", "ms-5", "me-5", "pb-3", "pt-3", "divStyle");
+    newDiv.innerText = document.querySelector("#inputValue").value;
+    newDiv.classList.add("divText");
+    spot.appendChild(newDiv);
 
-document.body.onload = addElement;
+    document.querySelector("#inputValue").value = "";
+  } else {
+    alert("Please enter new technology!");
+  }
+}
 
-const newDiv = document.createElement('div');
-newDiv.classList.add('col-5 border text-center ms-3 pb-3 pt-3');
-
-function e(){
-   document.querySelector('#ispis').innerHTML = document.querySelector('#input').value;
-};
+function removeAll() {
+  const element = document.getElementById("spot");
+  element.remove();
+}

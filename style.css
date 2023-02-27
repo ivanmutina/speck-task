@@ -1,47 +1,50 @@
 h2 {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 /* Uređivanje bootstrap forme */
 .form-control:focus {
-    border-color: #da4848;  
-    box-shadow: none; 
-    -webkit-box-shadow: none;
-    border-radius: 5px;
-} 
+  border-color: #da4848;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 5px;
+}
 
 .has-error .form-control:focus {
-    box-shadow: none; 
-    -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 button {
-    background-color: #eae5e4;
-    border-radius: 7px;
-    border: 1px solid #da4848;
-    color: #8f4032;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 13px 35px ;
-    text-align: center; 
-    transition-duration: 0.4s;
-  }
-  
-  button:hover {
-      background-color: #8f4032;
-      color: white;
-    }
-  
-a {
-    color: #8f4032;
+  background-color: #eae5e4;
+  border-radius: 7px;
+  border: 1px solid #da4848;
+  color: #8f4032;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 13px 35px;
+  text-align: center;
+  transition-duration: 0.4s;
 }
 
-#testDiv {
-    border-radius: 18px;
-    box-shadow: 0px 2px 2px 1px rgb(201, 194, 194);
+button:hover {
+  background-color: #8f4032;
+  color: white;
 }
 
+#remove {
+  color: #8f4032;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.divStyle {
+  border-radius: 18px;
+  box-shadow: 0px 2px 2px 1px rgb(201, 194, 194);
+}
+
+.divText {
+  font-weight: bold;
+  font-size: 28px;
+}
