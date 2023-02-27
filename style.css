@@ -2,7 +2,6 @@ h2 {
     padding-top: 5px;
 }
 
-
 /* Uređivanje bootstrap forme */
 .form-control:focus {
     border-color: #da4848;  
@@ -15,7 +14,6 @@ h2 {
     box-shadow: none; 
     -webkit-box-shadow: none;
 }
-
 
 button {
     background-color: #eae5e4;
@@ -41,3 +39,9 @@ button {
 a {
     color: #8f4032;
 }
+
+#testDiv {
+    border-radius: 18px;
+    box-shadow: 0px 2px 2px 1px rgb(201, 194, 194);
+}
+
